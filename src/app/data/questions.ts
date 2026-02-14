@@ -14,7 +14,7 @@ export const questions: Question[] = [
     id: 1,
     question:
       "¿Cuál es la verdadera misión de Leon S. Kennedy al llegar a España en RE4?",
-    imageUrl: "public/img/kittyleon.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/kittyleon.jpg`,
     options: [
       {
         text: "Recuperar su campera fachera de cuero que le robó un aldeano.",
@@ -38,7 +38,7 @@ export const questions: Question[] = [
     id: 2,
     question:
       "¿Cuál es el método que usa Ethan Winters para reimplantarse las extremidades?",
-    imageUrl: "public/img/question2.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/question2.jpg`,
     options: [
       {
         text: "Se aprovecha de las capacidades regenerativas extremas que le dio su infección con el mutamiceto.",
@@ -56,7 +56,7 @@ export const questions: Question[] = [
     id: 3,
     question:
       "¿Cuál es el objetivo de Chris Redfield al involucrarse con Ethan?",
-    imageUrl: "public/img/question3.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/question3.jpg`,
     options: [
       {
         text: "Proteger a la familia Winters y desmantelar a las armas bio-orgánicas como Madre Miranda.",
@@ -76,7 +76,7 @@ export const questions: Question[] = [
   {
     id: 4,
     question: "¿Quién es el verdadero villano oculto en RE4 Remake?",
-    imageUrl: "public/img/question4.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/question4.jpg`,
     options: [
       { text: "Osmund Saddler y su culto de Las Plagas.", isCorrect: false },
 
@@ -94,7 +94,7 @@ export const questions: Question[] = [
   {
     id: 5,
     question: "¿Cuál es el verdadero negocio del Buhonero en RE4 Remake?",
-    imageUrl: "public/img/question5.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/question5.jpg`,
     options: [
       {
         text: "Es un traficante infectado que provee armas a Leon a cambio de tesoros.",
@@ -111,7 +111,7 @@ export const questions: Question[] = [
   {
     id: 6,
     question: "¿Por qué Lady Dimitrescu persigue a Ethan en RE Village?",
-    imageUrl: "public/img/question6.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/question6.jpg`,
     options: [
       {
         text: "Para capturarlo y entregarle sus partes a la Madre Miranda.",
@@ -135,7 +135,7 @@ export const questions: Question[] = [
     id: 7,
     question:
       "Según el lore profundo, ¿cuál fue el motivo del secuestro de Ashley?",
-    imageUrl: "public/img/question7.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/question7.jpg`,
     options: [
       {
         text: "Saddler quería robarle su rutina de acondicionador para darle más volumen a las plagas.",
@@ -158,7 +158,7 @@ export const questions: Question[] = [
   {
     id: 8,
     question: "¿Cuál fue el mayor fracaso de Karl Heisenberg en su fábrica?",
-    imageUrl: "public/img/question8.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/question8.jpg`,
     options: [
       {
         text: "Sus experimentos fallidos con los Soldat y el Sturm.",
@@ -182,7 +182,7 @@ export const questions: Question[] = [
     id: 9,
     question:
       "¿Cuál es el efecto de salvar al perrito de la trampa para osos en RE4 Remake?",
-    imageUrl: "public/img/question9.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/question9.jpg`,
     options: [
       {
         text: "El perro te inscribe en un esquema piramidal de comida canina y Leon queda debiendo 50.000 dólares.",
@@ -203,7 +203,7 @@ export const questions: Question[] = [
     id: 10,
     question:
       "¿Por qué Ethan atropella tantas veces a Jack Baker en el garaje de RE7?",
-    imageUrl: "public/img/question10.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/question10.jpg`,
     options: [
       {
         text: "Para usar el daño masivo del auto y detener la regeneración de Jack.",
@@ -227,7 +227,7 @@ export const questions: Question[] = [
     id: 11,
     question:
       "¿Cuál es el verdadero motivo por el que Ada Wong siempre huye al final de los juegos en lugar de formalizar con Leon?",
-    imageUrl: "public/img/question11.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/question11.jpg`,
     options: [
       {
         text: "Para evitar tener que pagar a medias el combustible del helicóptero de rescate.",
@@ -251,7 +251,7 @@ export const questions: Question[] = [
     id: 12,
     question:
       "¿Cuál es el verdadero motivo de Luis Sera para arriesgar su vida ayudando a Leon en RE4 Remake?",
-    imageUrl: "public/img/question12.jpg",
+    imageUrl: `${(import.meta as any).env.BASE_URL}img/question12.jpg`,
     options: [
       {
         text: "Quería usar a Leon de carnada para poder robarle todo el inventario al Buhonero mientras este miraba para otro lado.",

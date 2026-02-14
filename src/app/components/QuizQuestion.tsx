@@ -22,12 +22,16 @@ export function QuizQuestion({
   const [answered, setAnswered] = useState(false);
 
   const playSuccessSound = () => {
-    const audio = new Audio("/sounds/click.mp3");
+    const audio = new Audio(
+      `${(import.meta as any).env.BASE_URL}sounds/click.mp3`,
+    );
     audio.play();
   };
 
   const playFailureSound = () => {
-    const audio = new Audio("/sounds/fail.mp3");
+    const audio = new Audio(
+      `${(import.meta as any).env.BASE_URL}sounds/fail.mp3`,
+    );
     audio.play();
   };
 

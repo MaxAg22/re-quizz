@@ -11,7 +11,9 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
   const [isMuted, setIsMuted] = useState(true);
 
   useEffect(() => {
-    const audio = new Audio("/public/sounds/resident-evil-environment.mp3");
+    const audio = new Audio(
+      `${(import.meta as any).env.BASE_URL}sounds/resident-evil-environment.mp3`,
+    );
     audio.loop = true;
     audio.preload = "auto";
     audioRef.current = audio;

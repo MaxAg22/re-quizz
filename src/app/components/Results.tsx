@@ -50,7 +50,7 @@ export function Results({ score, totalQuestions, onRestart }: ResultsProps) {
 
   useEffect(() => {
     const audio = new Audio(
-      "/sounds/save-room-resident-evil-4-classico-o-save.mp3",
+      `${(import.meta as any).env.BASE_URL}sounds/save-room-resident-evil-4-classico-o-save.mp3`,
     );
     audio.loop = true;
     audio.preload = "auto";
@@ -216,7 +216,7 @@ export function Results({ score, totalQuestions, onRestart }: ResultsProps) {
 
                     <div className="mb-4">
                       <motion.img
-                        src="/img/rouse.jpg"
+                        src={`${(import.meta as any).env.BASE_URL}img/rouse.jpg`}
                         alt="Recompensa"
                         className="w-full rounded-md object-cover"
                         initial={{ y: 0 }}
