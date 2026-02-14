@@ -12,5 +12,5 @@ export default defineConfig({
     },
   },
 
-  assetsInclude: ["**/*.svg", "**/*.csv"],
+  assetsInclude: ["**/*.svg", "**/*.csv", "**/*.mp3", "**/*.wav", "**/*.ogg"],
 });
