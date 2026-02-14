@@ -152,6 +152,7 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
             <a className="text-red-800"> E</a>
             <a className="text-white">VIL</a>
           </h1>
+
           <h2 className="text-2xl md:text-3xl text-center mb-8 text-primary/80">
             Quiz Definitivo
           </h2>
