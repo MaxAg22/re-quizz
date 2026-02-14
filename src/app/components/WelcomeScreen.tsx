@@ -142,8 +142,15 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
           </div>
 
           {/* Title */}
-          <h1 className="text-4xl md:text-6xl font-bold text-center mb-4 text-primary tracking-wider">
-            RESIDENT EVIL
+          <h1
+            className="text-4xl md:text-6xl font-bold text-center mb-4 text-primary tracking-wider"
+            style={{ fontFamily: "'Bebas Neue'" }}
+          >
+            <a className="text-red-800">R</a>
+            <a className="text-white">ESIDENT</a>
+
+            <a className="text-red-800"> E</a>
+            <a className="text-white">VIL</a>
           </h1>
           <h2 className="text-2xl md:text-3xl text-center mb-8 text-primary/80">
             Quiz Definitivo
